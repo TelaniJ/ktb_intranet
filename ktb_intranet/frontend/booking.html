@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Tourism Board Intranet - Event Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1>Event Booking</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://magicalkenya.com/">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-form">
+            <h2>Book an Event</h2>
+            <form id="bookingForm" action="submit_booking.php" method="post">
+                <div class="input-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="event">Event:</label>
+                    <select id="event" name="event" required>
+                        <option value="Wildlife Conservation Seminar">Wildlife Conservation Seminar</option>
+                        <option value="Cultural Festival">Cultural Festival</option>
+                        <option value="Tourism Awards Night">Tourism Awards Night</option>
+                    </select>
+                </div>
+                <button type="submit" class="auth-button">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Contact Us: +254 123 456 789 | email@kenyatourismboard.or.ke</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "John Doe",
+        "position": "CEO",
+        "department": "CEO's Office"
+    },
+    {
+        "name": "Jane Smith",
+        "position": "Chief Strategist",
+        "department": "Strategy"
+    },
+    {
+        "name": "Alice Johnson",
+        "position": "Marketing Manager",
+        "department": "Marketing"
+    },
+    {
+        "name": "Bob Brown",
+        "position": "Finance Director",
+        "department": "Finance"
+    },
+    {
+        "name": "Eve Davis",
+        "position": "HR Manager",
+        "department": "HR and Admin"
+    },
+    {
+        "name": "Tom Wilson",
+        "position": "Chief Auditor",
+        "department": "Audit"
+    },
+    {
+        "name": "Linda Green",
+        "position": "Legal Advisor",
+        "department": "Legal"
+    },
+    {
+        "name": "Mark White",
+        "position": "IT Manager",
+        "department": "ICT"
+    },
+    {
+        "name": "Nancy Black",
+        "position": "PR Manager",
+        "department": "Public Relations"
+    },
+    {
+        "name": "James Gold",
+        "position": "Procurement Officer",
+        "department": "Procurement"
+    }
+]
